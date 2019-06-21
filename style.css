@@ -1,0 +1,181 @@
+#author-info {
+    background: #fff;
+    border-color: #DDD;
+    border-style: solid solid double;
+    border-width: 1px 1px 1px 7px;
+    box-shadow: 0.01em 0.1em 0.1em 0.1em #EEE;
+    clear: both;
+    font-size: 13px;
+    line-height: 1.19231;
+    margin-bottom: 24px;
+    padding: 17px;
+    text-align: left;
+    width: 100%;
+}
+#author-info img {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    float: left;
+    height: 100%;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.parent-box .heading{
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+.parent-box .heading h5{
+    font-size: 15px;
+    color: #FFF;
+}
+.parent-box span{
+    font-size: 45px;
+    color: green;
+    padding: 0px 0px 0px 9px;
+}
+.parent-box .heading h5 i.fa {
+    margin-right: 5px;
+    font-size: 15px;
+    color: #FFF;
+}
+#author-info h5 {
+    background-color: #0f9d58;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.4), 0 6px 20px 0 rgba(0,0,0,0);
+    padding: 5px 30px;
+    display: flex;
+    align-items: center;
+}
+.parent-box {
+    display: flex;
+    align-items: center;
+}
+.author-latest-post-box {
+    padding: 10px 10px;
+    font-weight: bold;
+    color: #000;
+}
+.author-latest-post{
+    display: inline-block;
+    background-color: #0f9d58;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.4), 0 6px 20px 0 rgba(0,0,0,0);
+    margin-bottom: 2%;
+    margin-right: 3px;
+    padding: 5px 10px;
+}
+.author-latest-post{
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 15px;
+}
+.author-bio p{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.author-bio a{
+    display: inline-block;
+    font-size: 9px;
+    font-weight: bold;
+    background-color: #0f9d58;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.4), 0 6px 20px 0 rgba(0,0,0,0);
+    margin-bottom: 2%;
+    margin-right: 3px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 600px) {
+   
+#author-info img {
+    text-align: center;
+}
+.parent-box .heading h5{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.parent-box span{
+   display: none;
+}
+#author-info h5 {
+    display: none;
+}
+.parent-box .heading h5 i.fa {
+    font-size: 15px;
+}
+.author-latest-post-box {
+    width: 100%;
+    padding: 2px 10px;
+    font-size: 10px;
+}
+.author-latest-post{
+    padding: 5px 10px;
+    font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+
+#author-info img {
+    text-align: center;
+}
+.parent-box .heading h5{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.parent-box span{
+    display: none;
+}
+#author-info h5 {
+    display: none;
+}
+.parent-box .heading h5 i.fa {
+    font-size: 15px;
+}
+.author-latest-post-box {
+    width: 100%;
+    padding: 2px 10px;
+    font-size: 10px;
+}
+.author-latest-post{
+    padding: 5px 10px;
+    font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 800px) {
+
+#author-info img {
+    text-align: center;
+}
+.parent-box .heading h5{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.parent-box span{
+    display: none;
+}
+#author-info h5 {
+    display: none;
+}
+.parent-box .heading h5 i.fa {
+    font-size: 15px;
+}
+.author-latest-post-box {
+    width: 100%;
+    padding: 2px 10px;
+    font-size: 10px;
+}
+.author-latest-post{
+    padding: 5px 10px;
+    font-size: 10px;
+}
+}
